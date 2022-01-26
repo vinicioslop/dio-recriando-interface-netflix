@@ -38,6 +38,8 @@ header nav a {
     text-decoration: none;
     color: #AAA;
     margin-right: 20px;
+
+    font-size: 18px;
 }
 
 header nav a:hover {
@@ -47,79 +49,4 @@ header nav a:hover {
 .sua-conta {
     height: 30px;
     width: 30px;
-}
-
-/*filme principal*/
-.filme-principal {
-    font-size: 16px;
-    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)100%),
-        url('../img/capa-rezero.jpg');
-
-    height: 400px;
-    background-size: cover;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.filme-principal .descricao {
-    margin-top: 15px;
-    margin-bottom: 40px;
-}
-
-.filme-principal .titulo {
-    margin-top: 5%;
-    font-size: 40px;
-    font-family: 'Trebuchet MS', Arial, sans-serif;
-}
-
-.filme-principal .subtitulo {
-    margin-top: 5px;
-
-    font-family: 'Trebuchet MS', Arial, sans-serif;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-}
-
-.botao {
-    background-color: rgba(0, 0, 0, .5);
-    border: none;
-    color: white;
-
-    padding: 15px 30px;
-    margin-right: 15px;
-    font-size: 12px;
-
-    cursor: pointer;
-    transition: .3s ease all;
-}
-
-.botao:hover {
-    background-color: white;
-    color: black;
-}
-
-.botao i {
-    margin-right: 8px;
-}
-
-.container {
-    margin-left: 30px;
-}
-
-.filme-principal .container {
-    width: 70%;
-    padding-bottom: 30px;
-}
-
-.box-filme {
-    display: block;
-    height: 320px;
-    width: 225;
-}
-
-.carrosel-filmes {
-    margin-top: 30px;
 }
