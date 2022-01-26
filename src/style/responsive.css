@@ -16,6 +16,12 @@
         margin-top: 5px;
         width: 250px;
     }
+
+    .box-filme {
+        display: block;
+        height: 520px;
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 1000px){

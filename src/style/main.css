@@ -28,7 +28,7 @@ header .container {
 }
 
 header .logo {
-    margin-left: 5px;
+    margin-left: 10px;
     color: var(--roxo);
     font-family: 'Arial Black', Times;
     font-size: 40px;
@@ -37,7 +37,7 @@ header .logo {
 header nav a {
     text-decoration: none;
     color: #AAA;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 header nav a:hover {
@@ -52,8 +52,8 @@ header nav a:hover {
 /*filme principal*/
 .filme-principal {
     font-size: 16px;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)100%),
-        url('../img/capa-homem-aranha.jpg');
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)100%),
+        url('../img/capa-rezero.jpg');
 
     height: 400px;
     background-size: cover;
@@ -65,14 +65,22 @@ header nav a:hover {
 }
 
 .filme-principal .descricao {
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 40px;
 }
 
 .filme-principal .titulo {
-    margin-top: 15%;
+    margin-top: 5%;
     font-size: 40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.filme-principal .subtitulo {
+    margin-top: 5px;
+
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
 }
 
 .botao {
@@ -107,9 +115,9 @@ header nav a:hover {
 }
 
 .box-filme {
-    height: 100%;
-    width: 100%;
     display: block;
+    height: 320px;
+    width: 225;
 }
 
 .carrosel-filmes {
